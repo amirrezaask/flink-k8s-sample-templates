@@ -17,7 +17,7 @@ echo 'Deploying JobManagerJob'
 oc process -f JobManagerJob.yml | oc apply -f -
 
 echo 'Deploying JobManagerJobDeployment'
-oc process -f JobManagerJobDeployment.yml | oc apply -f -
+oc process -f TaskManagerJobDeployment.yml | oc apply -f -
 
 
 
