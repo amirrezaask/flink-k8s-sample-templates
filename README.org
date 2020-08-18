@@ -1,6 +1,3 @@
-* Qazi Stream Processor
-Qazi Stream Processor uses flink as it's framework of stateful stream processing.
-** Flink Flow
-*** Use PostgreSQL as Source of computation
-*** Update it's internal state of users rates
-*** Sink computation output to the PostgreSQL
+# Flink Deployer
+
+Flink Deployer deploys a Job cluster of flink.
